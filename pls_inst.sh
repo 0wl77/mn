@@ -4,7 +4,6 @@ apt-get -y update
 apt-get -y upgrade
 apt-get -y install software-properties-common
 apt-add-repository -y ppa:bitcoin/bitcoin
-apt-get -y update
 apt-get -y install wget git unzip libevent-dev libboost-dev libboost-chrono-dev ibboost-filesystem-dev libboost-program-options-dev libboost-system-dev libboost-test-dev libboost-thread-dev libminiupnpc-dev
 apt-get -y install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libzmq3-dev nano mc
 apt-get -y update
